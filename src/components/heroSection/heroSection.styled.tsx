@@ -15,14 +15,6 @@ export const StyledCarouselSection = styled(Carousel)<StyledCarouselProps>`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
     .overlay {
       position: absolute;
       top: 0;
@@ -39,6 +31,7 @@ export const StyledCarouselSection = styled(Carousel)<StyledCarouselProps>`
       justify-content: center;
       z-index: 2;
       text-align: center;
+      padding: 0 25px;
       h5 {
         margin-bottom: 30px;
       }
@@ -58,12 +51,6 @@ export const StyledCarouselSection = styled(Carousel)<StyledCarouselProps>`
       gap: 15px;
       @media (max-width: 768px) {
         flex-direction: column;
-      }
-      button {
-        box-shadow: none;
-        padding: 20px 40px;
-        width: 250px;
-        height: 50px;
       }
     }
   }

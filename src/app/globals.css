@@ -130,7 +130,7 @@ a {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -149,8 +149,16 @@ a {
   line-height: 84px !important;
 }
 
+.ant-typography {
+  z-index: 2;
+}
+
 h1 {
   font-size: 38px !important;
+}
+
+h2 {
+  font-size: 39px !important;
 }
 
 button {
@@ -161,8 +169,64 @@ button {
   -o-border-radius: 0 !important;
 }
 
+.large-btn {
+  padding: 20px 40px !important;
+  box-shadow: none !important;
+  width: 250px !important;
+  height: 50px !important;
+}
+
+.small-btn {
+  box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 20px 40px !important;
+}
+
+.ant-divider {
+  background-color: var(--color-text-secondary) !important;
+}
+
+.cover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.phone-icon {
+  font-size: 38px;
+}
+
+.overlayRedBlack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(at top center, #38202078 0%, var(--color-bg-primary) 100%);
+  background-image: radial-gradient(at top center, #17111178 0%, var(--color-bg-primary) 100%);
+  background-image: radial-gradient(at center,
+      #2d212178 0%,
+      var(--color-bg-primary) 100%);
+
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 28px !important;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  h3 {
+    font-size: 22px !important;
+  }
+
+  h5 {
+    font-size: 14px !important;
   }
 }

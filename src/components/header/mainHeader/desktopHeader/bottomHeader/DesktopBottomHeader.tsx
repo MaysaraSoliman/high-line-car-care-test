@@ -5,6 +5,7 @@ import { StyledDesktopBottomHeader } from "./desktopBottomHeader.styled";
 import Title from "antd/es/typography/Title";
 import { FiPhone } from "react-icons/fi";
 import Link from "next/link";
+import ContactBox from "@/components/contactBox/ContactBox";
 
 const DesktopBottomHeader = () => {
   return (
@@ -13,13 +14,11 @@ const DesktopBottomHeader = () => {
         <Image src={logoImage} width={150} alt="Picture of the author" />
       </Link>
       <Navbar mode={"horizontal"} />
-      <div className="right-col">
-        <FiPhone className="phone-icon" />
-        <div className="right-text-box">
-          <Title level={5}>Free Consultations</Title>
-          <Title level={3}>888-6000-613</Title>
-        </div>
-      </div>
+      <ContactBox
+        className="right-col"
+        title="Free Consultations"
+        number="888-6000-613"
+      />
     </StyledDesktopBottomHeader>
   );
 };

@@ -4,6 +4,7 @@
     padding: 60px 0;
 }
 
+
 #visionAndMission .vision-mission-container {
     display: flex;
     gap: 30px;
@@ -17,13 +18,14 @@
     margin: 0;
 }
 
-#visionAndMission .vision-mission-container .paragraph {
+#visionAndMission .vision-mission-container .left-col .paragraph {
     margin: 30px 0 20px;
 }
 
 #visionAndMission .vision-mission-container .left-col {
     flex: 1;
     padding: 20px 40px;
+
 }
 
 #visionAndMission .vision-mission-container .right-col {

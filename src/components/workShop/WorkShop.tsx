@@ -8,11 +8,11 @@ import workShopBackGroundImage from "../../../public/assets/images/work-shop/wor
 
 const WorkShop = () => {
   return (
-    <section id="workShop">
-      <div className={`container workShop-container`}>
+    <section className="animationAppearFromBottom" id="workShop">
+      <div className={`container workShop-container `}>
         <div className={`repair-container`}>
           <Title level={2}>Car repair workshop</Title>
-          <Paragraph>
+          <Paragraph className="paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </Paragraph>
@@ -36,7 +36,7 @@ const WorkShop = () => {
         </div>
         <div className={`estimate-container`}>
           <Title level={2}>Get an estimate</Title>
-          <Paragraph>
+          <Paragraph className="paragraph">
             Tell us about you and your vehicle to get a free initial repair
             estimate.
           </Paragraph>

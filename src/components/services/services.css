@@ -1,0 +1,62 @@
+#services .container-services {
+    padding-bottom: 40px;
+}
+
+#services .container-services .ant-col {
+    display: flex;
+    flex-direction: column;
+}
+
+#services .container-services .ant-col .icon-box {
+    background-color: red;
+    width: fit-content;
+    padding: 15px 30px;
+    z-index: 2;
+    margin-top: -55px;
+    margin-bottom: 15px;
+}
+
+#services .container-services .ant-col .icon-box .icon {
+    font-size: 35px;
+}
+
+#services .container-services .image-box {
+    height: 250px;
+    border-top: 3px solid var(--color-primary);
+}
+
+#services .container-services .text-box {
+    padding: 20px;
+    background: url("../../../public/assets/images/work-shop/estimate-bg_img.png");
+    background-color: #000;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#services .container-services .text-box h3 {
+    margin: 0;
+}
+
+#services .container-services .text-box h5 {
+    margin: 0;
+}
+
+#services .container-services .text-box ul {
+    padding: 15px 0;
+}
+
+#services .container-services .text-box ul li {
+    padding: 10px 0;
+    list-style: inside;
+}
+
+#services .container-services .text-box button {
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    #services .container-services .image-box {
+        height: 170px;
+    }
+}

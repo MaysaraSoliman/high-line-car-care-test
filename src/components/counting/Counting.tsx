@@ -34,7 +34,7 @@ const Counting = () => {
     };
   }, []);
   return (
-    <div id="counting">
+    <section className="animationAppearFromBottom" id="counting">
       <div className="container">
         <div className="counting_container">
           <Row gutter={16}>
@@ -76,7 +76,7 @@ const Counting = () => {
           </Row>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

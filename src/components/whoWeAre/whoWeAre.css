@@ -7,14 +7,10 @@
     gap: 30px;
 }
 
-#whoWeAre .who-we-are-container .left-col {
-    flex: 1;
-    padding: 20px 40px;
-}
-
+#whoWeAre .who-we-are-container .left-col,
 #whoWeAre .who-we-are-container .right-col {
-    padding: 20px 40px;
     flex: 1;
+    padding: 20px 40px;
 }
 
 #whoWeAre .who-we-are-container .left-col h2 {

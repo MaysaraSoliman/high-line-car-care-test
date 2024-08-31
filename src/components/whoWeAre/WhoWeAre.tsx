@@ -9,12 +9,12 @@ const WhoWeAre = () => {
   return (
     <section id="whoWeAre">
       <div className="container who-we-are-container componentsSpaces">
-        <div className="left-col">
+        <div className="left-col animationAppearFromLeft">
           <Title level={5}>Who we are</Title>
           <Title level={2}>
             Simple, affordable, and effective car detailing products.
           </Title>
-          <Paragraph>
+          <Paragraph className="paragraph">
             Ac nulla metus euismod hendrerit aenean vel scelerisque penatibus
             sociosqu. Egestas at si mollis pulvinar nam erat. Vel netus non
             pharetra curabitur gravida vulputate efficitur. Eu duis consectetuer
@@ -24,7 +24,7 @@ const WhoWeAre = () => {
             DISCOVER MORE
           </Button>
         </div>
-        <div className="right-col">
+        <div className="right-col animationAppearFromBottom">
           <Image
             className="cover-image"
             src={whoWeAreImage}
